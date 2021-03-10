@@ -1,0 +1,176 @@
+{
+  "$schemaRef": "https://eddn.edcd.io/schemas/journal/1",
+  "header": {
+    "gatewayTimestamp": "2020-06-11T20:43:29.547335Z",
+    "softwareName": "E:D Market Connector [Windows]",
+    "softwareVersion": "3.4.3.0",
+    "uploaderID": "d2c66c3ba3bc3cf6b61a0743afccf9dc8f2d6e20"
+  },
+  "message": {
+    "Atmosphere": "",
+    "AtmosphereComposition": [
+      {
+        "Name": "SulphurDioxide",
+        "Percent": 90
+      },
+      {
+        "Name": "Silicates",
+        "Percent": 5
+      },
+      {
+        "Name": "Oxygen",
+        "Percent": 2.999999
+      }
+    ],
+    "AtmosphereType": "SulphurDioxide",
+    "AxialTilt": 0.232414,
+    "BodyID": 10,
+    "BodyName": "Flyua Hypue OU-M d8-57 3 b",
+    "Composition": {
+      "Ice": 0,
+      "Metal": 0.091086,
+      "Rock": 0.908914
+    },
+    "DistanceFromArrivalLS": 1352.48512,
+    "Eccentricity": 0.000236,
+    "Landable": false,
+    "MassEM": 0.00043,
+    "OrbitalInclination": -1.381371,
+    "OrbitalPeriod": 169652.450085,
+    "Parents": [
+      {
+        "Planet": 7
+      },
+      {
+        "Star": 0
+      }
+    ],
+    "Periapsis": 195.106451,
+    "PlanetClass": "Rocky body",
+    "Radius": 531907.9375,
+    "RotationPeriod": 169652.730767,
+    "ScanType": "Detailed",
+    "SemiMajorAxis": 779708743.095398,
+    "StarPos": [
+      -5965.90625,
+      -126.84375,
+      7381.96875
+    ],
+    "StarSystem": "Flyua Hypue OU-M d8-57",
+    "SurfaceGravity": 0.60627,
+    "SurfacePressure": 0,
+    "SurfaceTemperature": 294.324066,
+    "SystemAddress": 1967740914763,
+    "TerraformState": "",
+    "TidalLock": true,
+    "Volcanism": "major rocky magma volcanism",
+    "WasDiscovered": false,
+    "WasMapped": false,
+    "event": "Scan",
+    "timestamp": "2020-06-11T20:43:28Z"
+  }
+},
+{
+  "$schemaRef": "https://eddn.edcd.io/schemas/journal/1",
+  "header": {
+    "gatewayTimestamp": "2020-06-11T20:43:29.806773Z",
+    "softwareName": "EDDiscovery",
+    "softwareVersion": "11.5.1.0",
+    "uploaderID": "b30ee4968bdebf27d1f1883212f858dca54f916b"
+  },
+  "message": {
+    "DistFromStarLS": 2999.335932,
+    "MarketID": 3229771776,
+    "StarPos": [
+      108.28125,
+      17.9375,
+      -98.96875
+    ],
+    "StarSystem": "26 Alpha Monocerotis",
+    "StationAllegiance": "Federation",
+    "StationEconomies": [
+      {
+        "Name": "$economy_Industrial;",
+        "Proportion": 1
+      }
+    ],
+    "StationEconomy": "$economy_Industrial;",
+    "StationFaction": {
+      "Name": "Cerry Purple Transport Inc"
+    },
+    "StationGovernment": "$government_Corporate;",
+    "StationName": "Nehsi Hub",
+    "StationServices": [
+      "dock",
+      "autodock",
+      "commodities",
+      "contacts",
+      "exploration",
+      "missions",
+      "outfitting",
+      "crewlounge",
+      "rearm",
+      "refuel",
+      "repair",
+      "shipyard",
+      "tuning",
+      "engineer",
+      "missionsgenerated",
+      "flightcontroller",
+      "stationoperations",
+      "powerplay",
+      "searchrescue",
+      "stationMenu",
+      "shop"
+    ],
+    "StationType": "Coriolis",
+    "SystemAddress": 84053889730,
+    "event": "Docked",
+    "timestamp": "2020-06-11T20:43:28Z"
+  }
+},
+{
+  "$schemaRef": "https://eddn.edcd.io/schemas/journal/1",
+  "header": {
+    "gatewayTimestamp": "2020-06-11T20:43:29.135572Z",
+    "softwareName": "EDSM - Console",
+    "softwareVersion": "1.0",
+    "uploaderID": "e76b5978929ca2b0e24ad4ac29e2c7f65886c15c"
+  },
+  "message": {
+    "AbsoluteMagnitude": 2.963135,
+    "Age_MY": 1644,
+    "AxialTilt": 0,
+    "BodyID": 0,
+    "BodyName": "Hegai RI-B d0",
+    "DistanceFromArrivalLS": 0,
+    "Luminosity": "Vb",
+    "Radius": 951536832,
+    "Rings": [
+      {
+        "InnerRad": 4096200000,
+        "MassMT": 381360000000000,
+        "Name": "Hegai RI-B d0 A Belt",
+        "OuterRad": 416140000000,
+        "RingClass": "eRingClass_Rocky"
+      }
+    ],
+    "RotationPeriod": 196852.97938,
+    "ScanType": "AutoScan",
+    "StarPos": [
+      5467.21875,
+      543.21875,
+      -3624.40625
+    ],
+    "StarSystem": "Hegai RI-B d0",
+    "StarType": "A",
+    "StellarMass": 1.476563,
+    "Subclass": 9,
+    "SurfaceTemperature": 7592,
+    "SystemAddress": 11635116035,
+    "WasDiscovered": false,
+    "WasMapped": false,
+    "event": "Scan",
+    "timestamp": "2020-06-11T20:42:08Z"
+  }
+}

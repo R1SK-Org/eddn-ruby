@@ -1,0 +1,1064 @@
+{
+  "$schemaRef": "https://eddn.edcd.io/schemas/commodity/3",
+  "header": {
+    "gatewayTimestamp": "2020-06-11T18:45:31.183380Z",
+    "softwareName": "EliteLogAgent",
+    "softwareVersion": "1.3.4.619",
+    "uploaderID": "a9d94a238b0ffdffc129ba617dc226116ed04004"
+  },
+  "message": {
+    "commodities": [
+      {
+        "buyPrice": 0,
+        "demand": 15810,
+        "demandBracket": 2,
+        "meanPrice": 0,
+        "name": "tritium",
+        "sellPrice": 2085,
+        "stock": 0,
+        "stockBracket": 0
+      }
+    ],
+    "marketId": 3700482816,
+    "stationName": "V46-J8Q",
+    "systemName": "HR 827",
+    "timestamp": "2020-06-11T18:45:30Z"
+  }
+},
+{
+  "$schemaRef": "https://eddn.edcd.io/schemas/commodity/3",
+  "header": {
+    "gatewayTimestamp": "2020-06-11T18:45:34.870249Z",
+    "softwareName": "E:D Market Connector [Windows]",
+    "softwareVersion": "3.4.3.0",
+    "uploaderID": "591d88a8ed1fed556c3d5f006dfdd4edef8f9eff"
+  },
+  "message": {
+    "commodities": [
+      {
+        "buyPrice": 0,
+        "demand": 3536,
+        "demandBracket": 2,
+        "meanPrice": 0,
+        "name": "tritium",
+        "sellPrice": 60084,
+        "stock": 0,
+        "stockBracket": ""
+      }
+    ],
+    "economies": [
+      {
+        "name": "Carrier",
+        "proportion": 1
+      }
+    ],
+    "marketId": 3701356544,
+    "prohibited": [
+      "BasicNarcotics",
+      "Beer",
+      "CombatStabilisers",
+      "ImperialSlaves",
+      "Liquor",
+      "PerformanceEnhancers",
+      "ProgenitorCells",
+      "Slaves",
+      "Tobacco",
+      "Wine"
+    ],
+    "stationName": "V71-H4T",
+    "systemName": "LHS 191",
+    "timestamp": "2020-06-11T18:45:26Z"
+  }
+},
+{
+  "$schemaRef": "https://eddn.edcd.io/schemas/commodity/3",
+  "header": {
+    "gatewayTimestamp": "2020-06-11T19:06:38.430023Z",
+    "softwareName": "EDDiscovery",
+    "softwareVersion": "11.5.2.0",
+    "uploaderID": "ee92bfaad4b38cfc5c4ce67edfc7bdad7b1a74ea"
+  },
+  "message": {
+    "commodities": [
+      {
+        "buyPrice": 0,
+        "demand": 436,
+        "demandBracket": 2,
+        "meanPrice": 3464,
+        "name": "agronomictreatment",
+        "sellPrice": 6388,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 18186,
+        "demandBracket": 3,
+        "meanPrice": 182743,
+        "name": "alexandrite",
+        "sellPrice": 294183,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 26463,
+        "demandBracket": 2,
+        "meanPrice": 323,
+        "name": "basicmedicines",
+        "sellPrice": 683,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 242,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 348,
+        "name": "aluminium",
+        "sellPrice": 222,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 5753252,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 11186752,
+        "demandBracket": 2,
+        "meanPrice": 172,
+        "name": "bauxite",
+        "sellPrice": 636,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 18186,
+        "demandBracket": 3,
+        "meanPrice": 120002,
+        "name": "benitoite",
+        "sellPrice": 296946,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 2721088,
+        "demandBracket": 2,
+        "meanPrice": 2486,
+        "name": "bertrandite",
+        "sellPrice": 3140,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 7280,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 8229,
+        "name": "beryllium",
+        "sellPrice": 7125,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 410905,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 46,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 63,
+        "name": "biowaste",
+        "sellPrice": 28,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 85119,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 108,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 214,
+        "name": "syntheticfabrics",
+        "sellPrice": 90,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 4136112,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 421680,
+        "demandBracket": 2,
+        "meanPrice": 130,
+        "name": "chemicalwaste",
+        "sellPrice": 619,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 557,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 695,
+        "name": "cobalt",
+        "sellPrice": 527,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 779328,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 2241221,
+        "demandBracket": 3,
+        "meanPrice": 1391,
+        "name": "coltan",
+        "sellPrice": 1983,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 345114,
+        "demandBracket": 2,
+        "meanPrice": 437,
+        "name": "fish",
+        "sellPrice": 910,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 146,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 252,
+        "name": "liquidoxygen",
+        "sellPrice": 129,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 284334,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 2547942,
+        "demandBracket": 2,
+        "meanPrice": 2911,
+        "name": "advancedcatalysers",
+        "sellPrice": 3500,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 136165,
+        "demandBracket": 2,
+        "meanPrice": 1233,
+        "name": "advancedmedicines",
+        "sellPrice": 1716,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 518316,
+        "demandBracket": 2,
+        "meanPrice": 1914,
+        "name": "gallite",
+        "sellPrice": 2541,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 4454,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 5107,
+        "name": "gallium",
+        "sellPrice": 4305,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 2020350,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 737418,
+        "demandBracket": 3,
+        "meanPrice": 244,
+        "name": "grain",
+        "sellPrice": 691,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 8973,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 9373,
+        "name": "gold",
+        "sellPrice": 8783,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 55977,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 3389444,
+        "demandBracket": 2,
+        "meanPrice": 908,
+        "name": "goslarite",
+        "sellPrice": 1397,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 18186,
+        "demandBracket": 3,
+        "meanPrice": 160876,
+        "name": "grandidierite",
+        "sellPrice": 346342,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 720,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 936,
+        "name": "semiconductors",
+        "sellPrice": 682,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 709928,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 134050,
+        "demandBracket": 2,
+        "meanPrice": 530,
+        "name": "domesticappliances",
+        "sellPrice": 1048,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 3108705,
+        "demandBracket": 2,
+        "meanPrice": 2179,
+        "name": "indite",
+        "sellPrice": 2822,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 5131,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 5774,
+        "name": "indium",
+        "sellPrice": 5020,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 1821500,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 10124,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 10861,
+        "name": "insulatingmembrane",
+        "sellPrice": 9910,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 5584,
+        "stockBracket": 2
+      },
+      {
+        "buyPrice": 0,
+        "demand": 30950,
+        "demandBracket": 3,
+        "meanPrice": 1327,
+        "name": "coffee",
+        "sellPrice": 1892,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 447618,
+        "demandBracket": 2,
+        "meanPrice": 324,
+        "name": "clothing",
+        "sellPrice": 810,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 471011,
+        "demandBracket": 3,
+        "meanPrice": 2252,
+        "name": "cryolite",
+        "sellPrice": 2822,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 69501,
+        "demandBracket": 2,
+        "meanPrice": 285,
+        "name": "syntheticmeat",
+        "sellPrice": 710,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 360,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 489,
+        "name": "copper",
+        "sellPrice": 333,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 4054742,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 7040,
+        "demandBracket": 3,
+        "meanPrice": 107486,
+        "name": "opal",
+        "sellPrice": 305635,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 721,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 496,
+        "name": "conductivefabrics",
+        "sellPrice": 667,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 1409728,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 4557699,
+        "demandBracket": 3,
+        "meanPrice": 605,
+        "name": "lepidolite",
+        "sellPrice": 1120,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 1296,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 1582,
+        "name": "lithium",
+        "sellPrice": 1249,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 339943,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 856739,
+        "demandBracket": 3,
+        "meanPrice": 5644,
+        "name": "lithiumhydroxide",
+        "sellPrice": 5555,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 1477136,
+        "demandBracket": 3,
+        "meanPrice": 629,
+        "name": "methaneclathrate",
+        "sellPrice": 867,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 1482596,
+        "demandBracket": 2,
+        "meanPrice": 242,
+        "name": "heliostaticfurnaces",
+        "sellPrice": 676,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 1882,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 756,
+        "name": "militarygradefabrics",
+        "sellPrice": 1781,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 874904,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 4610282,
+        "demandBracket": 3,
+        "meanPrice": 228,
+        "name": "mineraloil",
+        "sellPrice": 676,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 7040,
+        "demandBracket": 3,
+        "meanPrice": 179623,
+        "name": "monazite",
+        "sellPrice": 214122,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 18186,
+        "demandBracket": 3,
+        "meanPrice": 163135,
+        "name": "musgravite",
+        "sellPrice": 293303,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 0,
+        "demandBracket": 1,
+        "meanPrice": 154,
+        "name": "foodcartridges",
+        "sellPrice": 141,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 474,
+        "demandBracket": 1,
+        "meanPrice": 1826,
+        "name": "nonlethalweapons",
+        "sellPrice": 1766,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 409,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 498,
+        "name": "surfacestabilisers",
+        "sellPrice": 379,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 1118611,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 110487,
+        "demandBracket": 3,
+        "meanPrice": 348,
+        "name": "fruitandvegetables",
+        "sellPrice": 811,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 14666,
+        "demandBracket": 3,
+        "meanPrice": 40504,
+        "name": "painite",
+        "sellPrice": 136036,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 69,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 181,
+        "name": "polymers",
+        "sellPrice": 52,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 5541728,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 2910121,
+        "demandBracket": 3,
+        "meanPrice": 1555,
+        "name": "pyrophyllite",
+        "sellPrice": 2081,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 24206,
+        "demandBracket": 2,
+        "meanPrice": 2090,
+        "name": "reactivearmour",
+        "sellPrice": 2604,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 1954770,
+        "demandBracket": 2,
+        "meanPrice": 5914,
+        "name": "resonatingseparators",
+        "sellPrice": 6895,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 14666,
+        "demandBracket": 3,
+        "meanPrice": 157096,
+        "name": "rhodplumsite",
+        "sellPrice": 187456,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 1559578,
+        "demandBracket": 3,
+        "meanPrice": 343,
+        "name": "rutile",
+        "sellPrice": 828,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 676916,
+        "demandBracket": 2,
+        "meanPrice": 78,
+        "name": "scrap",
+        "sellPrice": 631,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 2001270,
+        "demandBracket": 2,
+        "meanPrice": 324,
+        "name": "hazardousenvironmentsuits",
+        "sellPrice": 764,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 18186,
+        "demandBracket": 3,
+        "meanPrice": 140728,
+        "name": "serendibite",
+        "sellPrice": 331768,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 4201,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 4759,
+        "name": "silver",
+        "sellPrice": 4061,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 142250,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 216,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 294,
+        "name": "explosives",
+        "sellPrice": 194,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 1521295,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 993007,
+        "demandBracket": 2,
+        "meanPrice": 536,
+        "name": "powergenerators",
+        "sellPrice": 1035,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 5844,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 6662,
+        "name": "superconductors",
+        "sellPrice": 5718,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 1661996,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 3362,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 3929,
+        "name": "tantalum",
+        "sellPrice": 3247,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 171078,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 112473,
+        "demandBracket": 3,
+        "meanPrice": 1515,
+        "name": "tea",
+        "sellPrice": 2081,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 11733,
+        "demandBracket": 3,
+        "meanPrice": 57443,
+        "name": "lowtemperaturediamond",
+        "sellPrice": 294543,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 123798,
+        "demandBracket": 3,
+        "meanPrice": 1336,
+        "name": "animalmeat",
+        "sellPrice": 1892,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 815,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 1016,
+        "name": "titanium",
+        "sellPrice": 773,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 7232077,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 41040,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 41684,
+        "name": "tritium",
+        "sellPrice": 40197,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 234445,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 60043,
+        "demandBracket": 2,
+        "meanPrice": 6700,
+        "name": "consumertechnology",
+        "sellPrice": 7461,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 2245,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 2660,
+        "name": "uranium",
+        "sellPrice": 2167,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 3324164,
+        "stockBracket": 3
+      },
+      {
+        "buyPrice": 0,
+        "demand": 6378496,
+        "demandBracket": 3,
+        "meanPrice": 902,
+        "name": "uraninite",
+        "sellPrice": 1455,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 759392,
+        "demandBracket": 3,
+        "meanPrice": 155,
+        "name": "water",
+        "sellPrice": 619,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 140873,
+        "demandBracket": 2,
+        "meanPrice": 310,
+        "name": "waterpurifiers",
+        "sellPrice": 651,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 0,
+        "demand": 930596,
+        "demandBracket": 3,
+        "meanPrice": 917,
+        "name": "hydrogenperoxide",
+        "sellPrice": 1120,
+        "statusFlags": [
+          "Consumer"
+        ],
+        "stock": 0,
+        "stockBracket": 0
+      },
+      {
+        "buyPrice": 85,
+        "demand": 1,
+        "demandBracket": 0,
+        "meanPrice": 122,
+        "name": "hydrogenfuel",
+        "sellPrice": 80,
+        "statusFlags": [
+          "Producer"
+        ],
+        "stock": 1788882,
+        "stockBracket": 3
+      }
+    ],
+    "marketId": 3226699264,
+    "stationName": "Willis Station",
+    "systemName": "Guayambaan",
+    "timestamp": "2020-06-11T19:06:38Z"
+  }
+}
