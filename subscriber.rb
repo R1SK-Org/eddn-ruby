@@ -1,8 +1,6 @@
 require 'zlib'
 require 'ffi-rzmq'
 require 'json'
-require 'ffi-rzmq'
-require 'zlib'
 
 # Reference docs: https://www.rubydoc.info/github/chuckremes/ffi-rzmq/ZMQ/
 
@@ -13,13 +11,13 @@ module EDDN
     attr_accessor :opts
 
     def initialize(opts = {})
-      @opts           = opts.dup
-      @opts[:schemas] = opts.try(:[], :schemas) || []
-      @schemas        = filter_schemas(@opts[:schemas])
-      @eddn_relay     = @opts.try(:eddn_relay) || 'tcp://eddn.edcd.io:9500'
-      @poll_timeout   = @opts.try(:timeout)    || 3000
-      context         = ZMQ::Context.new
-      @subscriber     = context.socket(ZMQ::SUB)
+      @opts         = opts.dup
+      @opts         = opts.try(:[], :schemas) || []
+      @schemas      = filter_schemas(@opts[:schemas])
+      @eddn_relay   = @opts.try(:eddn_relay) || 'tcp://eddn.edcd.io:9500'
+      @poll_timeout = @opts.try(:timeout)    || 3000
+      context       = ZMQ::Context.new
+      @subscriber   = context.socket(ZMQ::SUB)
       @subscriber.setsockopt(ZMQ::SUBSCRIBE, "")
     end
 
@@ -96,3 +94,6 @@ module EDDN
       end
   end
 end
+
+eddn = EDDN::Subscriber.new
+eddn.run!

@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.15.0)
+    ffi-rzmq (2.0.7)
+      ffi-rzmq-core (>= 1.0.7)
+    ffi-rzmq-core (1.0.7)
+      ffi
+    zlib (1.1.0)
+
+PLATFORMS
+  x86_64-darwin-19
+  x86_64-linux
+
+DEPENDENCIES
+  ffi-rzmq
+  zlib
+
+BUNDLED WITH
+   2.2.3
