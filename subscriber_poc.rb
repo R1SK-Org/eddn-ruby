@@ -1,5 +1,6 @@
 require 'ffi-rzmq'
 require 'zlib'
+require 'json'
 
 # Reference docs: https://www.rubydoc.info/github/chuckremes/ffi-rzmq/ZMQ/
 module EDDN
@@ -27,8 +28,9 @@ module EDDN
             end
           end
         rescue => e
-          Rails.logger.error "Loop error: #{e.message}"
+          puts "Loop error: #{e.message}"
           disconnect!(99, "Error in the loop!")
+          break
         end
       end
     end
@@ -36,13 +38,13 @@ module EDDN
     def connect
       prepare
       subscriber.connect(relay)
-      Rails.logger.info "Connected to EDDB at #{relay}"
+      puts "Connected to EDDB at #{relay}"
     end
 
     def set_poll
       @poller = ZMQ::Poller.new()
       @poller.register(subscriber, ZMQ::POLLIN)
-      Rails.logger.info "Poller created!"
+      puts "Poller created!"
     end
 
     def poll_routine
@@ -64,19 +66,18 @@ module EDDN
 
       unless recv_res == -1
         decomp_msg = Zlib::Inflate.inflate(new_msg.copy_out_string)
-        json_msg   = JSON.parse(decomp_msg)
+        json_msg   = ::JSON.parse(decomp_msg)
 
         #acc.push json_msg
-        Rails.logger.info "Message Received: #{json_msg}"
+        puts "Message Received: #{json_msg}"
       else
         disconnect!(recv_res)
       end
     end
 
     def disconnect!(errno, errmsg = "")
-      Rails.logger.error "Disconnected from EDDN! | ERRNO: #{errno} | ERRMSG: #{errmsg}"
+      puts "Disconnected from EDDN! | ERRNO: #{errno} | ERRMSG: #{errmsg}"
       subscriber.disconnect(relay)
-
     end
 
     def prepare
