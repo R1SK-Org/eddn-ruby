@@ -24,7 +24,7 @@ $ irb
 
 > load './subscriber_poc.rb'
 > eddn = EDDN::SubscriberPoc.new
-> eddn.run! # This will start fetching data from the stream, prepare yo have your screen bombarded.``
+> eddn.run! # This will start fetching data from the stream, prepare yo have your screen bombarded.
 ```
 
 ### Acknowledgements:
