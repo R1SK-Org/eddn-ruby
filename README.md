@@ -17,6 +17,16 @@ If you know what you're doing, you can use this to plug into the stream and do w
 
 * Ruby 3+
 
+### Usage:
+
+```ruby
+$ irb
+
+> load './subscriber_poc.rb'
+> eddn = EDDN::SubscriberPoc.new
+> eddn.run! # This will start fetching data from the stream, prepare yo have your screen bombarded.``
+```
+
 ### Acknowledgements:
 
 This is the work of a bored dev who wants to create cool shit. Don't expect this to be maintained constantly or to have a lot of guides on how to use it.
