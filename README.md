@@ -19,12 +19,21 @@ If you know what you're doing, you can use this to plug into the stream and do w
 
 ### Usage:
 
+**Locally:**
+
 ```ruby
 $ irb
 
 > load './subscriber_poc.rb'
 > eddn = EDDN::SubscriberPoc.new
 > eddn.run! # This will start fetching data from the stream, prepare to have your screen bombarded.
+```
+**Docker:**
+
+```
+make build
+make run # This will open a bash session inside the docker container.
+# Follow the steps above
 ```
 
 ### Acknowledgements:
